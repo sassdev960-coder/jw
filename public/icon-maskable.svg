@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGradMask" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="goldGradMask" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="50%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+  </defs>
+
+  <!-- Full-bleed background for maskable -->
+  <rect width="512" height="512" fill="url(#bgGradMask)" />
+
+  <!-- Inner Gold Plaque within safe zone (center 75%) -->
+  <g>
+    <rect x="120" y="120" width="272" height="272" rx="56" fill="url(#goldGradMask)" />
+    <rect x="130" y="130" width="252" height="252" rx="46" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-opacity="0.4" />
+  </g>
+
+  <!-- JW Typography -->
+  <text x="256" y="278" font-family="'Cinzel', 'Times New Roman', serif" font-size="124" font-weight="700" fill="#0f172a" text-anchor="middle" letter-spacing="3">JW</text>
+  <text x="256" y="332" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" font-weight="800" fill="#0f172a" text-anchor="middle" letter-spacing="5">ASIGNACIONES</text>
+</svg>

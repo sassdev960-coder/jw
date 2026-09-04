@@ -1,0 +1,6 @@
+{
+  "name": "Control de Asignaciones Teocráticas",
+  "description": "Aplicación móvil elegante para la gestión y notificación de partes, turnos y asignaciones en la congregación.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
