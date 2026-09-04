@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: ['main']
-  # Permite también ejecutar el despliegue manualmente desde la pestaña Actions
+  # Permite ejecutar el despliegue manualmente desde la pestaña Actions
   workflow_dispatch:
 
 permissions:
@@ -28,8 +28,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: 'npm'
+          node-version: 22
 
       - name: Install dependencies
         run: npm install
